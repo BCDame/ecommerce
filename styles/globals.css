@@ -1,13 +1,16 @@
 html,
-body {
+body, * {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  box-sizing: border-box;
+
 }
 ::-webkit-scrollbar {
   width: 0px;
 }
+
 a {
   color: inherit;
   text-decoration: none;
@@ -51,16 +54,17 @@ a {
   font-size: 20px;
 }
 .hero-banner-container button{
-  border-radius: 15px;
-  padding: 10px 16px;
-  background-color: #f02d34;
-  color: white;
-  border: none;
-  margin-top: 40px;
-  font-size: 18px;
-  font-weight: 500;
-  cursor: pointer;
-  z-index:10000 !important;
+  position: relative;;
+ border-radius: 15px;
+ padding: 10px 16px;
+ background-color: #f02d34;
+ color: white;
+ border: none;
+ margin-top: 40px;
+ font-size: 18px;
+ font-weight: 500;
+ cursor: pointer;
+ z-index:10000 !important;
 }
 
 .hero-banner-container h3{
